@@ -1,0 +1,73 @@
+body{
+    background-color: black;
+    color: white;
+}
+.heading{
+    text-align: center;
+    font-size: 40px;
+    color: coral;
+    text-shadow: 5px 5px 15px orangered, 0 0 35px orangered, 0 0 10px orangered;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.born{
+    text-align: center;
+    margin-left: 50px;
+}
+.died{
+    text-align: center;
+    margin-left: 950px;
+}
+.data1{
+    display: flex;
+    width: 100%;
+    height: auto;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+
+}
+
+.quote{
+    width: 30%;
+    height: 40%;
+    margin-left: 200px;
+}
+.img{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 40%;
+    height: 40%;
+    margin-left: 200px;
+   
+}
+.quote1{
+    margin-top: 80px;
+    word-spacing: 6px;
+    font-size: 27px;
+    font-style: oblique;
+}
+.head2{
+text-align: center;
+color: coral;
+}
+.txt1{
+    width: 55%;
+    height: auto;
+    margin-left: 310px;
+    justify-content:center;
+}
+.txt2{
+    color: white;
+}
+h2{
+    color: coral;
+}
+li{
+    font-size: 20px; 
+}
+.ul{
+    list-style-type: square;
+    
+}
