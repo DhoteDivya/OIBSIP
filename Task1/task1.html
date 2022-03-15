@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+<link rel="stylesheet" href="task1.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text1">
+          <input type="text" name="txt1" id="txt1" class="txt1">
+        </div>
+        <div class="data">
+        <table class="ta1">
+            
+            <tr><td><button onclick="allclear()" class="btnAC">AC</button></td>
+                <td><button onclick="del()" class="btn_del">x</button></td>
+                <td><button onclick="display('%')" class="btn_mod">%</button></td>
+                <td><button onclick="display('/')" class="btn_div">/</button></td>
+            </tr>
+            <tr><td><button onclick="display('7')">7</button></td>
+                <td><button onclick="display('8')">8</button></td>
+                <td><button onclick="display('9')">9</button></td>
+                <td><button onclick="display('*')" class="btn_mul">*</button></td>
+            </tr>
+            <tr><td><button onclick="display('4')">4</button></td>
+                <td><button onclick="display('5')">5</button></td>
+                <td><button onclick="display('6')">6</button></td>
+                <td><button onclick="display('-')" class="btn_mi">-</button></td>
+            </tr>
+            <tr><td><button onclick="display('1')">1</button></td>
+                <td><button onclick="display('2')">2</button></td>
+                <td><button onclick="display('3')">3</button></td>
+                <td><button onclick="display('+')" class="btn_add">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="display('0')">0</button></td>
+                <td><button onclick="display('00')">00</button></td>
+                <td><button onclick="display('.')">.</button></td>
+                <td><button onclick="calculate()" class="btn_equal">=</button></td>
+                
+            </tr>
+        </table>
+    </div>
+    </div>
+    <script type="text/javascript" src="task1.js"></script>
+</body>
+</html>
